@@ -14,11 +14,11 @@ BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 Requires:	autoconf >= 2.54
 Requires:	automake >= 1:1.9
-Requires:	gettext
+Requires:	gettext >= 0.10.40
 Requires:	glib2-devel
-Requires:	gtk-doc
-Requires:	intltool
-Requires:	libtool
+Requires:	gtk-doc >= 1.0
+Requires:	intltool >= 0.25
+Requires:	libtool >= 1:1.4.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
