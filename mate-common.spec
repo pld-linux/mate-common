@@ -2,7 +2,7 @@ Summary:	Common scripts and macros for MATE desktop development
 Summary(pl.UTF-8):	Skrypty i makra do rozwijania środowiska graficznego MATE
 Name:		mate-common
 Version:	1.5.0
-Release:	2
+Release:	3
 License:	GPL v3+
 Group:		Development/Tools
 Source0:	http://pub.mate-desktop.org/releases/1.5/%{name}-%{version}.tar.xz
@@ -15,10 +15,11 @@ BuildRequires:	xz
 Requires:	autoconf >= 2.54
 Requires:	automake >= 1:1.9
 Requires:	gettext >= 0.10.40
-Requires:	glib2-devel
+Requires:	glib2-devel >= 1:2.2.0
 Requires:	gtk-doc >= 1.0
 Requires:	intltool >= 0.25
 Requires:	libtool >= 1:1.4.3
+Requires:	pkgconfig >= 1:0.14.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
