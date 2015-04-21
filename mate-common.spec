@@ -1,12 +1,12 @@
 Summary:	Common scripts and macros for MATE desktop development
 Summary(pl.UTF-8):	Skrypty i makra do rozwijania środowiska graficznego MATE
 Name:		mate-common
-Version:	1.8.0
+Version:	1.10.0
 Release:	1
 License:	GPL v3+
 Group:		Development/Tools
-Source0:	http://pub.mate-desktop.org/releases/1.8/%{name}-%{version}.tar.xz
-# Source0-md5:	c7db8bf321bbba37a254aed12a5e129d
+Source0:	http://pub.mate-desktop.org/releases/1.10/%{name}-%{version}.tar.xz
+# Source0-md5:	6b3cd7ca22e5771424cf680214103727
 URL:		http://wiki.mate-desktop.org/mate-common
 BuildRequires:	autoconf >= 2.54
 BuildRequires:	automake >= 1:1.9
