@@ -7,7 +7,7 @@ License:	GPL v3+
 Group:		Development/Tools
 Source0:	https://pub.mate-desktop.org/releases/1.26/%{name}-%{version}.tar.xz
 # Source0-md5:	640fedc09ca02bfa9b64128e983dc9c8
-URL:		http://wiki.mate-desktop.org/mate-common
+URL:		https://github.com/mate-desktop/mate-common
 BuildRequires:	autoconf >= 2.54
 BuildRequires:	automake >= 1:1.9
 BuildRequires:	tar >= 1:1.22
@@ -49,6 +49,7 @@ metafor.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
